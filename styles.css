@@ -77,10 +77,6 @@ header a{
     font-weight:400 ;
 }
 
-.text p{
-    padding: 50px 0;
-}
-
 .my-journal-txt h1{
     margin: 0.3em  0;
 }
@@ -101,10 +97,10 @@ h1{
 
 
 .stay-committed-txt h3,p{
-    margin-bottom: 20px;
+    margin-bottom: 1.17em;
 }
 .txt p{
-    margin: 20px 0 0;
+    margin: 1.17em 0 0;
 }
 
 .blog-container{
@@ -145,15 +141,15 @@ footer p{
 
 
 .txt{
-    padding: 0px;
-    margin: 40px  0 0;
+    padding: 0;
+    margin: 2.5em  0 0;
 
 }
 
 .txt img{
     width:100%;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 2.5em;
     border-radius:5px;
 }
 
@@ -164,7 +160,6 @@ footer p{
 
 @media (max-width: 768px) {
     section, header, footer {
-        /* padding: 10px; */
         margin: 0; 
     }
 
@@ -198,8 +193,7 @@ footer p{
 
 @media (min-width:768px){
     header {
-        /* background-color: red; */
-        padding: 0px 10px;
+        padding: 0px 0.625em;
     }
     .section-one {
         height: 80vh;
@@ -214,16 +208,16 @@ footer p{
     }
 
     .my-journey{
-        padding:0 370px 0px 150px;
+        padding:0 370px 0px 8.82em;
     }
      .stay-committed-txt{
-        padding:0 520px 50px 150px;
+        padding:0 30.58em 2.94em 150px;
      }
 
      .profile-container{
         display: flex;
         align-items: center;
-        padding:0  300px 30px 50px;
+        padding:0  18.75em 1.87em 3.125em;
      }
      
      nav ul li a{
@@ -235,14 +229,11 @@ footer p{
     font-weight: 900;
     font-size: 1.125rem;
     margin-left: 0.3em;
-
 }
 .profile-img{
     width:200px;
     height:200px;
     border-radius: 50%;
-}
-
-   
+}   
 }
 
