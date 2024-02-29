@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: rgb(77, 119, 119);
+}
+header, .logo{
+    display: flex;
+    align-items: center;
+}
+header , .view-more a{
+    color:#0e0e0e;
+}
+header{
+    background-color: #fff;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav, div{
+    padding: 1.25em;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 1.875em;
+}
+nav ul li a{
+     font-size:0.6rem;
+     font-weight: 800;
+}
+header a{
+    text-decoration: none;
+    color: #090909;
+}
+
+.logo strong{
+    font-weight: 900;
+    font-size: 0.81rem;
+    margin-left: 0.3em;
+
+}
+
+.section-one{
+    background-image: url("images/maksym-mazur-x74pl-NHiEA-unsplash.jpg");
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding:1px;
+}
+
+.my-journal-txt{
+   margin:6.25em 0.635em 0 0;
+}
+
+.my-journal-txt p{
+    font-weight: 300;
+}
+
+.my-journal-txt p,
+.txt p,
+.stay-committed-txt,
+.profile-container{
+    font-size: 1.05rem;
+    line-height:1.5;
+}
+
+
+.txt p,
+.stay-committed-txt,
+.profile-container{
+    font-weight:400 ;
+}
+
+.text p{
+    padding: 50px 0;
+}
+
+.my-journal-txt h1{
+    margin: 0.3em  0;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 2.25rem;
+}
+
+.section-two, 
+.section-3, 
+.journal-container,
+.stay-committed-txt,
+.profile-container{
+    background-color:#fafafa;
+}
+
+
+
+.stay-committed-txt h3,p{
+    margin-bottom: 20px;
+}
+.txt p{
+    margin: 20px 0 0;
+}
+
+.blog-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding: 0;
+}
+.blog-container p{
+    font-weight: 350;
+    font-size:0.99rem;
+    line-height: 1.5;
+    margin:0.5em 0;
+    max-width: 374px;
+}
+
+.view-more,
+.footer-container,
+.recent-posts h3 {
+    text-align: center;
+}
+
+.view-more h3 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #202022;
+}
+footer h5{
+    color: #ececec;
+}
+footer p{
+    color: #d7d8d7;
+}
+
+
+
+.txt{
+    padding: 0px;
+    margin: 40px  0 0;
+
+}
+
+.txt img{
+    width:100%;
+    display: inline-block;
+    margin-top: 40px;
+    border-radius:5px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    section, header, footer {
+        /* padding: 10px; */
+        margin: 0; 
+    }
+
+    .blog-container div img {
+        width: 100%; 
+    }
+
+  
+}
+
+
+/* About me */
+
+.profile-img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+.profile-container{
+    padding-top:1.6em;
+}
+
+.profile-container h1{
+   line-height: 1.1;
+   margin: 0 0  0.5em ;
+}
+
+
+/* Desktop  */
+
+@media (min-width:768px){
+    header {
+        /* background-color: red; */
+        padding: 0px 10px;
+    }
+    .section-one {
+        height: 80vh;
+    }
+    .blog-container{
+        justify-content: center;
+    }
+
+    .my-journal-txt {
+        max-width: 700px;
+        margin-top: 18.25em; 
+    }
+
+    .my-journey{
+        padding:0 370px 0px 150px;
+    }
+     .stay-committed-txt{
+        padding:0 520px 50px 150px;
+     }
+
+     .profile-container{
+        display: flex;
+        align-items: center;
+        padding:0  300px 30px 50px;
+     }
+     
+     nav ul li a{
+        font-size:0.9rem;
+        font-weight: 800;
+   }
+
+   .logo strong{
+    font-weight: 900;
+    font-size: 1.125rem;
+    margin-left: 0.3em;
+
+}
+.profile-img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+   
+}
+
