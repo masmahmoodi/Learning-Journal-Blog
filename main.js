@@ -16,13 +16,6 @@ fetch('footer.html')
     })
 
 
-    function toggleMobileNav() {
-        var mobileNav = document.querySelector('nav.mobile-nav ul');
-        mobileNav.style.display === 'flex' ? mobileNav.style.display = 'none' : mobileNav.style.display = 'flex';
-    }
-
-
-
 
 const viewMoreBlogs = document.querySelector(".more")
 const displaying = document.querySelector(".show-more")
