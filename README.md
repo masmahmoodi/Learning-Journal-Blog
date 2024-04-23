@@ -1,1 +1,2 @@
-# Live demo : https://masmahmoodi.github.io/Learning-Journal-Blog/ 🦈
+# Live demo🦈
+## https://masmahmoodi.github.io/Learning-Journal-Blog/ 
